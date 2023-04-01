@@ -6,6 +6,21 @@
   font-family: 'Campton';
   src: url('./assets/font/CamptonBook.ttf');
   font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('./assets/font/Campton-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('./assets/font/Campton-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
 }
 
 ::-webkit-scrollbar {
@@ -33,6 +48,14 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+input,
+select,
+label,
+textarea {
+  font-family: inherit !important;
+  font-weight: inherit !important;
 }
 
 a {
